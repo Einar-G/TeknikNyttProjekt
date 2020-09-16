@@ -26,7 +26,7 @@ header {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(0, 0, 0);
   display: flex;
-  justify-content: space-around;
+  mar
 }
 #artikel1_rubrik {
   color: rgb(0, 0, 0);
@@ -37,4 +37,17 @@ header {
 #Brödtext {
   color: rgba(0, 0, 0, 0.726);
   text-align: center;
+}
+
+nav a {
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+  margin-right: 32px;
+  fa
+}
+
+nav a:hover{
+  text-decoration: underline;
+  font-style: italic;
 }
