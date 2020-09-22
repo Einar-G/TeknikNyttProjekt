@@ -16,6 +16,14 @@ header {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#citat {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
 #Info_rubrik {
   font-size: 30px;
   display: flex;
@@ -32,14 +40,6 @@ header {
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
-}
-
-#citat {
-  color: rgb(0, 0, 0);
-  text-align: center;
-  font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: italic;
 }
 
 #Link {
