@@ -65,23 +65,50 @@ nav {
   flex-direction: row;
 }
 
-#artikel_innehall {
+#artikel1_innehall {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 50px;
+}
+#Seafish {
   margin-left: 20px;
 }
 
-#artikel_huvudsida_rubrik {
+#artikel2_innehall {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 80px;
+}
+
+#artikel3_innehall {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#NvidiaRtx {
+  margin-left: 20px;
+}
+
+#artikel_rubrik {
   font-size: 40px;
   text-align: center;
   font-weight: 600;
 }
 
-#artikel_huvudsida {
+#artikel_text {
   font-size: 28px;
   font-weight: 400;
+}
+
+#artikel_text_special {
+  font-size: 28px;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-bottom: 80px;
 }
 
 footer {
