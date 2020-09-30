@@ -10,20 +10,20 @@ header {
   background-color: rgb(202, 56, 56);
 }
 
-#sidnamn {
+.sidnamn {
   color: rgb(0, 0, 0);
   text-align: center;
   font-size: 40px;
 }
 
-#citat {
+.citat {
   color: rgb(0, 0, 0);
   text-align: center;
   font-size: 25px;
   font-style: italic;
 }
 
-#info_rubrik {
+.info_rubrik {
   font-size: 30px;
   display: flex;
   justify-content: center;
@@ -31,7 +31,7 @@ header {
   text-decoration: underline;
 }
 
-#info {
+.info {
   font-size: 20px;
   display: flex;
   justify-content: center;
@@ -39,7 +39,7 @@ header {
   margin-top: -10px;
 }
 
-#link {
+.link {
   font-size: 32px;
   font-weight: normal;
   color: black;
@@ -65,53 +65,63 @@ nav {
   flex-direction: row;
 }
 
-#artikel1_innehall {
+.artikel1_innehall {
   display: flex;
   flex-direction: row;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 50px;
 }
-#Seafish {
+.Seafish {
   margin-left: 20px;
 }
 
-#artikel2_innehall {
+.artikel2_innehall {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 80px;
 }
 
-#artikel3_innehall {
+.artikel3_innehall {
   display: flex;
   flex-direction: row;
   margin-left: 20px;
   margin-right: 20px;
 }
 
-#NvidiaRtx {
+.artikel4_innehall {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.NvidiaRtx {
   margin-left: 20px;
 }
 
-#artikel_rubrik {
+.bad5G {
+  margin-left: 20px;
+}
+
+h1 {
   font-size: 40px;
   text-align: center;
   font-weight: 600;
 }
 
-#artikel_text {
+h2 {
   font-size: 28px;
   font-weight: 400;
 }
 
-#artikel_text_special {
+.artikel_text_special {
   font-size: 28px;
   font-weight: 400;
   margin-left: 20px;
   margin-bottom: 80px;
 }
 
-footer {
+#bottom {
   padding: 5px;
   background-color: rgb(202, 56, 56);
 }
